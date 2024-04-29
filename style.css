@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    color: white;
+    box-sizing: border-box;
+    font-family: Courgette;
+}
+
+html, body {
+    background-image: url('Images/background2.jpg');
+    transition: opacity 0.5s ease;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+}
+
+.nav a{
+    margin: 0;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(239, 162, 162, 0.3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+}
