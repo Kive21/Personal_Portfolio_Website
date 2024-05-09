@@ -7,16 +7,14 @@
 }
 
 html, body {
-    background-image: url('Images/background2.jpg');
-    transition: opacity 0.5s ease;
+    background-image: url('Images/background5.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    overflow: hidden;
     margin: 0;
-    opacity: 1;
     padding: 0;
+    height: 100vh;
 }
 
 /*Navigation*/
@@ -36,6 +34,8 @@ html, body {
 }
 
 .main-nav{
+    position: sticky;
+    top: 0;
     text-align: center;
     font-size: 1.1em;
 }
@@ -49,6 +49,16 @@ html, body {
 .header{
     font-family: Courgette;
     font-size: 30px;
+}
+
+.content-section img {
+    border-radius: 50%; /* rounds the image */
+    display: flex; /* makes the image a flex container */
+    justify-content: center; /* centers the image horizontally */
+    align-items: center; /* centers the image vertically */
+    margin: 0 auto; /* centers the image horizontally */
+    width: 200px;
+    height: 200px;
 }
 
 ul{
